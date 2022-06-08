@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoLogin1
 {
-    partial class agregarAdministrador
+    partial class Inicio_Administrador
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,18 @@ namespace proyectoLogin1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Inicio_Administrador
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "agregarAdministrador";
+            this.ClientSize = new System.Drawing.Size(561, 399);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Inicio_Administrador";
+            this.Text = "Inicio_Administrador";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
