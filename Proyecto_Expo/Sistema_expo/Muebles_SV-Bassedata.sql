@@ -1,4 +1,4 @@
-
+DROP DATABASE if EXISTS Mueble_SV;
 CREATE DATABASE Mueble_SV;
 USE Mueble_SV;
 
@@ -6,8 +6,10 @@ CREATE TABLE Usuarios(
 id_user INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 user_name VARCHAR (30) NOT NULL,
 contraseña VARCHAR (30) NOT NULL,
-tipo_de_usuario varchar (30) NOT NULL
+tipo_de_usuario varchar (30)
 );
+
+insert into Usuarios(user_name, contraseña) VALUES ("Admin123", "Prueba123");
 
 DESCRIBE Usuarios;
 
@@ -39,4 +41,3 @@ FOREIGN KEY (ID_Material_Se)
 REFERENCES Materiales_Secundario(ID_Material_Se),
 Precio_de_mano_de_obra_bruto float (30) NOT NULL
 );
-

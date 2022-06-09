@@ -109,6 +109,7 @@
     <Compile Include="Inicio_Administrador.Designer.cs">
       <DependentUpon>Inicio_Administrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs" />
     <Compile Include="Pedidos.cs">
       <SubType>Form</SubType>
     </Compile>
