@@ -29,27 +29,21 @@ namespace proyectoLogin1
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnHerramientas = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnTiempo = new System.Windows.Forms.Button();
-            this.btnCatalogo = new System.Windows.Forms.Button();
             this.btnPedidos = new System.Windows.Forms.Button();
             this.btnMateriales = new System.Windows.Forms.Button();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.minimizar = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pContenedor = new System.Windows.Forms.Panel();
             this.pMenu = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.pTitulo = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizar)).BeginInit();
@@ -58,18 +52,10 @@ namespace proyectoLogin1
             this.pTitulo.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(121)))), ((int)(((byte)(84)))));
-            this.panel5.Location = new System.Drawing.Point(3, 276);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 36);
-            this.panel5.TabIndex = 1;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(121)))), ((int)(((byte)(84)))));
-            this.panel2.Location = new System.Drawing.Point(3, 216);
+            this.panel2.Location = new System.Drawing.Point(3, 206);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(10, 36);
             this.panel2.TabIndex = 1;
@@ -101,48 +87,21 @@ namespace proyectoLogin1
             this.btnHerramientas.Name = "btnHerramientas";
             this.btnHerramientas.Size = new System.Drawing.Size(159, 36);
             this.btnHerramientas.TabIndex = 0;
-            this.btnHerramientas.Text = "Herramientas";
+            this.btnHerramientas.Text = "Tiempo";
             this.btnHerramientas.UseVisualStyleBackColor = true;
+            this.btnHerramientas.Click += new System.EventHandler(this.btnHerramientas_Click);
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.btnHerramientas, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 330);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 195);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(165, 59);
             this.tableLayoutPanel3.TabIndex = 7;
-            // 
-            // btnTiempo
-            // 
-            this.btnTiempo.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnTiempo.FlatAppearance.BorderSize = 0;
-            this.btnTiempo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(121)))), ((int)(((byte)(84)))));
-            this.btnTiempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTiempo.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiempo.Location = new System.Drawing.Point(3, 71);
-            this.btnTiempo.Name = "btnTiempo";
-            this.btnTiempo.Size = new System.Drawing.Size(159, 36);
-            this.btnTiempo.TabIndex = 3;
-            this.btnTiempo.Text = "Tiempo";
-            this.btnTiempo.UseVisualStyleBackColor = true;
-            // 
-            // btnCatalogo
-            // 
-            this.btnCatalogo.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnCatalogo.FlatAppearance.BorderSize = 0;
-            this.btnCatalogo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(121)))), ((int)(((byte)(84)))));
-            this.btnCatalogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCatalogo.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCatalogo.Location = new System.Drawing.Point(3, 11);
-            this.btnCatalogo.Name = "btnCatalogo";
-            this.btnCatalogo.Size = new System.Drawing.Size(159, 36);
-            this.btnCatalogo.TabIndex = 2;
-            this.btnCatalogo.Text = "Cátalogo";
-            this.btnCatalogo.UseVisualStyleBackColor = true;
             // 
             // btnPedidos
             // 
@@ -171,21 +130,6 @@ namespace proyectoLogin1
             this.btnMateriales.TabIndex = 1;
             this.btnMateriales.Text = "Materiales";
             this.btnMateriales.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.btnTiempo, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.btnCatalogo, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 205);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(165, 119);
-            this.tableLayoutPanel2.TabIndex = 6;
             // 
             // tableLayoutPanel1
             // 
@@ -249,13 +193,10 @@ namespace proyectoLogin1
             // pMenu
             // 
             this.pMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(182)))), ((int)(((byte)(125)))));
-            this.pMenu.Controls.Add(this.panel4);
-            this.pMenu.Controls.Add(this.panel5);
             this.pMenu.Controls.Add(this.panel2);
             this.pMenu.Controls.Add(this.panel3);
             this.pMenu.Controls.Add(this.panel1);
             this.pMenu.Controls.Add(this.tableLayoutPanel3);
-            this.pMenu.Controls.Add(this.tableLayoutPanel2);
             this.pMenu.Controls.Add(this.tableLayoutPanel1);
             this.pMenu.Controls.Add(this.pictureBox1);
             this.pMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -263,14 +204,6 @@ namespace proyectoLogin1
             this.pMenu.Name = "pMenu";
             this.pMenu.Size = new System.Drawing.Size(180, 415);
             this.pMenu.TabIndex = 5;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(121)))), ((int)(((byte)(84)))));
-            this.panel4.Location = new System.Drawing.Point(3, 341);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 36);
-            this.panel4.TabIndex = 1;
             // 
             // pTitulo
             // 
@@ -299,7 +232,6 @@ namespace proyectoLogin1
             this.Name = "Trabajador_Interfaz";
             this.Text = "MueblesSV";
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizar)).EndInit();
@@ -311,25 +243,19 @@ namespace proyectoLogin1
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnHerramientas;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button btnTiempo;
-        private System.Windows.Forms.Button btnCatalogo;
         private System.Windows.Forms.Button btnPedidos;
         private System.Windows.Forms.Button btnMateriales;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox minimizar;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel pContenedor;
         private System.Windows.Forms.Panel pMenu;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel pTitulo;
     }
 }

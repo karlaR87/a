@@ -24,7 +24,7 @@ namespace proyectoLogin1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void minimizar_Click(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace proyectoLogin1
 
         private void btnTiempo_Click(object sender, EventArgs e)
         {
-
+            AbrirFormTiempo(new Tiempo_Administrador());
         }
 
         private void pMenu_Paint(object sender, PaintEventArgs e)
@@ -83,17 +83,17 @@ namespace proyectoLogin1
 
         private void btnPedidos_Click(object sender, EventArgs e)
         {
-
+            AbrirFormHija(new Pedidos());
         }
 
         private void btnMateriales_Click(object sender, EventArgs e)
         {
-
+            AbrirFormMateriales(new Materiales_Administrador());
         }
 
         private void btnCatalogo_Click(object sender, EventArgs e)
         {
-
+            AbrirFormCatalogo(new Catalogo_Administrador());
         }
 
         private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
@@ -103,7 +103,7 @@ namespace proyectoLogin1
 
         private void btnHerramientas_Click(object sender, EventArgs e)
         {
-
+            AbrirFormHerramientas(new Herramientas_Administrador());
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -143,15 +143,81 @@ namespace proyectoLogin1
                 this.SetDesktopLocation(MousePosition.X - mx, MousePosition.Y - my);
             }
         }
-        public void AbrirFormHija(object formHija)
+        private void AbrirFormHija(object formHija)
         {
             if (this.pContenedor.Controls.Count > 0)
-            {
                 this.pContenedor.Controls.RemoveAt(0);
-                Form fh = formHija as Form;
-                //fh.TopLevel1;
+            Form fh = formHija as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.pContenedor.Controls.Add(fh);
+            this.pContenedor.Tag = fh;
+            fh.Show();
+        }
+        private void AbrirFormMateriales(object formMateriales)
+        {
+            if (this.pContenedor.Controls.Count > 0)
+                this.pContenedor.Controls.RemoveAt(0);
+            Form fh = formMateriales as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.pContenedor.Controls.Add(fh);
+            this.pContenedor.Tag = fh;
+            fh.Show();
+        }
+        private void AbrirFormCatalogo(object formCatalogo)
+        {
+            if (this.pContenedor.Controls.Count > 0)
+                this.pContenedor.Controls.RemoveAt(0);
+            Form fh = formCatalogo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.pContenedor.Controls.Add(fh);
+            this.pContenedor.Tag = fh;
+            fh.Show();
+        }
 
-            }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void AbrirFormTiempo(object formTiempo)
+        {
+            if (this.pContenedor.Controls.Count > 0)
+                this.pContenedor.Controls.RemoveAt(0);
+            Form fh = formTiempo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.pContenedor.Controls.Add(fh);
+            this.pContenedor.Tag = fh;
+            fh.Show();
+        }
+        private void AbrirFormHerramientas(object formHerramientas)
+        {
+            if (this.pContenedor.Controls.Count > 0)
+                this.pContenedor.Controls.RemoveAt(0);
+            Form fh = formHerramientas as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.pContenedor.Controls.Add(fh);
+            this.pContenedor.Tag = fh;
+            fh.Show();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoLogin1
 {
-    partial class Inicio_Administrador
+    partial class Herramientas_Administrador
     {
         /// <summary>
         /// Required designer variable.
@@ -29,37 +29,44 @@ namespace proyectoLogin1
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // comboBox1
             // 
-            this.pictureBox1.Image = global::proyectoLogin1.Properties.Resources.muebles_sv2;
-            this.pictureBox1.Location = new System.Drawing.Point(64, 49);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 191);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(87, 55);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(156, 21);
+            this.comboBox1.TabIndex = 0;
             // 
-            // Inicio_Administrador
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(112, 92);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(106, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Generar factura";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Herramientas_Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 328);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(631, 346);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.comboBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Inicio_Administrador";
-            this.Text = "Inicio_Administrador";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Name = "Herramientas_Administrador";
+            this.Text = "Herramientas_Administrador";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

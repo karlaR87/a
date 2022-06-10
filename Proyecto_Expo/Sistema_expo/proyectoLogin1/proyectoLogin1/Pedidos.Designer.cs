@@ -35,18 +35,18 @@ namespace proyectoLogin1
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(430, 101);
+            this.btnAgregar.Location = new System.Drawing.Point(470, 76);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(108, 45);
+            this.btnAgregar.Size = new System.Drawing.Size(108, 58);
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Agregar Pedido";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(430, 201);
+            this.btnEliminar.Location = new System.Drawing.Point(470, 245);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(108, 45);
+            this.btnEliminar.Size = new System.Drawing.Size(108, 58);
             this.btnEliminar.TabIndex = 1;
             this.btnEliminar.Text = "Eliminar Pedido";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -55,7 +55,8 @@ namespace proyectoLogin1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(622, 378);
+            this.BackColor = System.Drawing.Color.Beige;
+            this.ClientSize = new System.Drawing.Size(622, 406);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

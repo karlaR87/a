@@ -45,6 +45,11 @@ namespace proyectoLogin1
             Close();
         }
 
+        private void btnHerramientas_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void pTitulo_MouseMove(object sender, MouseEventArgs e)
         {
             if (m == 1)
