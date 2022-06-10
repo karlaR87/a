@@ -55,11 +55,11 @@ namespace proyectoLogin1
             this.txtusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(217)))), ((int)(((byte)(206)))));
             this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusuario.ForeColor = System.Drawing.Color.Gray;
-            this.txtusuario.Location = new System.Drawing.Point(333, 183);
+            this.txtusuario.Location = new System.Drawing.Point(317, 183);
             this.txtusuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtusuario.Multiline = true;
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(206, 28);
+            this.txtusuario.Size = new System.Drawing.Size(249, 28);
             this.txtusuario.TabIndex = 2;
             this.txtusuario.Text = "Usuario";
             this.txtusuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -71,11 +71,11 @@ namespace proyectoLogin1
             this.txtcontraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(217)))), ((int)(((byte)(206)))));
             this.txtcontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcontraseña.ForeColor = System.Drawing.Color.Gray;
-            this.txtcontraseña.Location = new System.Drawing.Point(333, 244);
+            this.txtcontraseña.Location = new System.Drawing.Point(317, 244);
             this.txtcontraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtcontraseña.Multiline = true;
             this.txtcontraseña.Name = "txtcontraseña";
-            this.txtcontraseña.Size = new System.Drawing.Size(206, 30);
+            this.txtcontraseña.Size = new System.Drawing.Size(212, 30);
             this.txtcontraseña.TabIndex = 4;
             this.txtcontraseña.Text = "Contraseña";
             this.txtcontraseña.TextChanged += new System.EventHandler(this.txtcontraseña_TextChanged);
@@ -86,7 +86,7 @@ namespace proyectoLogin1
             // 
             this.btningresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(159)))), ((int)(((byte)(123)))));
             this.btningresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btningresar.Font = new System.Drawing.Font("Tw Cen MT Condensed", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btningresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btningresar.Location = new System.Drawing.Point(366, 331);
             this.btningresar.Margin = new System.Windows.Forms.Padding(2);
             this.btningresar.Name = "btningresar";
@@ -114,7 +114,11 @@ namespace proyectoLogin1
             // pictureBox3
             // 
             this.pictureBox3.Image = global::proyectoLogin1.Properties.Resources.esquisde;
+<<<<<<< HEAD
             this.pictureBox3.Location = new System.Drawing.Point(576, 2);
+=======
+            this.pictureBox3.Location = new System.Drawing.Point(576, 15);
+>>>>>>> 35bbcc16fc6d25c20cecf259241bf048636295c0
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(36, 26);
@@ -126,7 +130,11 @@ namespace proyectoLogin1
             // minimizar
             // 
             this.minimizar.Image = global::proyectoLogin1.Properties.Resources.minimizar;
+<<<<<<< HEAD
             this.minimizar.Location = new System.Drawing.Point(545, 2);
+=======
+            this.minimizar.Location = new System.Drawing.Point(545, 15);
+>>>>>>> 35bbcc16fc6d25c20cecf259241bf048636295c0
             this.minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.minimizar.Name = "minimizar";
             this.minimizar.Size = new System.Drawing.Size(38, 26);
@@ -139,10 +147,16 @@ namespace proyectoLogin1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(159)))), ((int)(((byte)(123)))));
             this.panel1.Controls.Add(this.pictureBox1);
+<<<<<<< HEAD
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 30);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(270, 363);
+=======
+            this.panel1.Location = new System.Drawing.Point(0, 36);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(270, 357);
+>>>>>>> 35bbcc16fc6d25c20cecf259241bf048636295c0
             this.panel1.TabIndex = 9;
             // 
             // pictureBox1
@@ -159,9 +173,15 @@ namespace proyectoLogin1
             // btMostrar
             // 
             this.btMostrar.Image = global::proyectoLogin1.Properties.Resources.ojo1;
+<<<<<<< HEAD
             this.btMostrar.Location = new System.Drawing.Point(545, 244);
             this.btMostrar.Name = "btMostrar";
             this.btMostrar.Size = new System.Drawing.Size(30, 30);
+=======
+            this.btMostrar.Location = new System.Drawing.Point(529, 244);
+            this.btMostrar.Name = "btMostrar";
+            this.btMostrar.Size = new System.Drawing.Size(38, 30);
+>>>>>>> 35bbcc16fc6d25c20cecf259241bf048636295c0
             this.btMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btMostrar.TabIndex = 11;
             this.btMostrar.TabStop = false;
@@ -170,9 +190,15 @@ namespace proyectoLogin1
             // ptOcultar
             // 
             this.ptOcultar.Image = global::proyectoLogin1.Properties.Resources.ojo2;
+<<<<<<< HEAD
             this.ptOcultar.Location = new System.Drawing.Point(545, 244);
             this.ptOcultar.Name = "ptOcultar";
             this.ptOcultar.Size = new System.Drawing.Size(30, 30);
+=======
+            this.ptOcultar.Location = new System.Drawing.Point(528, 244);
+            this.ptOcultar.Name = "ptOcultar";
+            this.ptOcultar.Size = new System.Drawing.Size(38, 30);
+>>>>>>> 35bbcc16fc6d25c20cecf259241bf048636295c0
             this.ptOcultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptOcultar.TabIndex = 10;
             this.ptOcultar.TabStop = false;

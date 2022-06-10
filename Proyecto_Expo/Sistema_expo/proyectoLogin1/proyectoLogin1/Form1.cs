@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 
 namespace proyectoLogin1
@@ -105,9 +106,25 @@ namespace proyectoLogin1
 
         private void btningresar_Click(object sender, EventArgs e)
         {
-            Administrador_interfaz ventanadeAdmin = new Administrador_interfaz();
-            ventanadeAdmin.Show();
-            Hide();
+            Login verificaciónDeCredenciales = new Login(txtusuario.Text, txtcontraseña.Text);
+            if (verificaciónDeCredenciales.VerificacionDeUsuario() == true)
+            {
+                if (verificaciónDeCredenciales.VerificacionDeContra() == true)
+                {
+                    Administrador_interfaz ventanadeAdmin = new Administrador_interfaz();
+                    ventanadeAdmin.Show();
+                    Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña incorrecta", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Usuario incorrecta", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
         }
 
         private void txtcontraseña_TextChanged(object sender, EventArgs e)
@@ -132,7 +149,7 @@ namespace proyectoLogin1
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
     }
 }

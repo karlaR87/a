@@ -99,6 +99,7 @@ C:\Users\sarai.monterroza\Desktop\EXPO\Muebles.SV\Proyecto_Expo\Sistema_expo\pro
 C:\Users\sarai.monterroza\Desktop\EXPO\Muebles.SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.pdb
 C:\Users\sarai.monterroza\Desktop\EXPO\Muebles.SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Inicio_Administrador.resources
 C:\Users\sarai.monterroza\Desktop\EXPO\Muebles.SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Pedidos.resources
+<<<<<<< HEAD
 C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.exe.config
 C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.exe
 C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.pdb
@@ -140,3 +141,42 @@ C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\pr
 C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Tiempo_Administrador.resources
 C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Herramientas_Administrador.resources
 C:\Users\sarai.monterroza\Desktop\Expoo\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.AssemblyReference.cache
+=======
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.exe.config
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.exe
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\proyectoLogin1.pdb
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\Google.Protobuf.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\MySql.Data.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Buffers.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Memory.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\ZstdNet.dll
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\Google.Protobuf.pdb
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\Google.Protobuf.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\MySql.Data.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Buffers.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Memory.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.AssemblyReference.cache
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Administrador_interfaz.resources
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Form1.resources
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Inicio_Administrador.resources
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Pedidos.resources
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Properties.Resources.resources
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.Trabajador_Interfaz.resources
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.GenerateResource.cache
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.CoreCompileInputs.cache
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.csproj.CopyComplete
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.exe
+C:\Users\emili\OneDrive\Escritorio\Expo, mis horas de desvelo en el futuro\Muebles_SV\Proyecto_Expo\Sistema_expo\proyectoLogin1\proyectoLogin1\obj\Debug\proyectoLogin1.pdb
+>>>>>>> 35bbcc16fc6d25c20cecf259241bf048636295c0
