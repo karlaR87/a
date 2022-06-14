@@ -1,4 +1,4 @@
-
+DROP DATABASE if EXISTS Mueble_SV;
 CREATE DATABASE Mueble_SV;
 USE Mueble_SV;
 
@@ -6,8 +6,13 @@ CREATE TABLE Usuarios(
 id_user INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 user_name VARCHAR (30) NOT NULL,
 contraseña VARCHAR (30) NOT NULL,
-tipo_de_usuario varchar (30) NOT NULL
+tipo_de_usuario int (30) NOT NULL
 );
+
+INSERT INTO Usuarios(user_name, contraseña, tipo_de_usuario) VALUES("Admin", "Admin123", 0); 
+INSERT INTO Usuarios(user_name, contraseña, tipo_de_usuario) VALUES("Trabajador", "Trabajador123", 1);
+
+SELECT * FROM Usuarios;
 
 DESCRIBE Usuarios;
 
@@ -16,7 +21,7 @@ Nombre_de_MaterialSe VARCHAR (30) NOT NULL,
 ID_Material_Se VARCHAR (30) PRIMARY KEY NOT NULL,
 Precio_MateriaSe varchar (30) NOT NULL
 );
-##
+
 
 CREATE TABLE Materiales_prim(
 Nombre_de_MaterialPr VARCHAR (30) NOT NULL,
