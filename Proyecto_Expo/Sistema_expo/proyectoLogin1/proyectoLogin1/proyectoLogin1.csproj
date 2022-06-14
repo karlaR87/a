@@ -147,6 +147,7 @@
     <Compile Include="Trabajador_Interfaz.Designer.cs">
       <DependentUpon>Trabajador_Interfaz.cs</DependentUpon>
     </Compile>
+    <Compile Include="Validacion.cs" />
     <EmbeddedResource Include="Administrador-interfaz.resx">
       <DependentUpon>Administrador-interfaz.cs</DependentUpon>
     </EmbeddedResource>

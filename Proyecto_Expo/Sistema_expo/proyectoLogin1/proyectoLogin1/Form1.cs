@@ -105,9 +105,27 @@ namespace proyectoLogin1
 
         private void btningresar_Click(object sender, EventArgs e)
         {
-            Administrador_interfaz ventanadeAdmin = new Administrador_interfaz();
-            ventanadeAdmin.Show();
-            Hide();
+            string usuario = txtusuario.Text;
+            string clave = txtcontraseña.Text;
+
+            Validacion user = Validacion.Login(usuario, clave);
+            if (user != null && user.nivel == 0)
+            {                
+                Administrador_interfaz ventanadeAdmin = new Administrador_interfaz();
+                ventanadeAdmin.Show();
+                Hide();
+            }
+            else if (user != null && user.nivel == 1)
+            {
+                Trabajador_Interfaz ventanadeTrabaja = new Trabajador_Interfaz();
+                ventanadeTrabaja.Show();
+                Hide();
+            }
+            else
+            {
+                MessageBox.Show("Credenciales Inválidas");
+            }
+
         }
 
         private void txtcontraseña_TextChanged(object sender, EventArgs e)

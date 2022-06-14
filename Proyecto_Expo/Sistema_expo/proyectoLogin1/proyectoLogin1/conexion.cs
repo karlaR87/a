@@ -10,22 +10,23 @@ namespace proyectoLogin1
 {
     class conexion
     {
-        string usuario, servidor, bd, cadena;
-        MySqlConnection con;
-
-        public conexion()
+        public static MySqlConnection Conectar()
         {
-            usuario = "root";
-            servidor = "127.0.0.1";
-            bd = "Mueble_SV";
-            cadena = "server=" + servidor + ";uid=" + usuario + "; Database=" + bd;
+            try
+            {
+                string server = "127.0.0.1";
+                string user = "root";
+                string databsse = "Mueble_SV";
+                string cadena = "server=" + server + ";uid=" + user + ";database=" + databsse;
 
-            con = new MySqlConnection(cadena);
-        }
-
-        public MySqlConnection conectar()
-        {
-            return con;
+                MySqlConnection conex = new MySqlConnection(cadena);
+                conex.Open();
+                return conex;
+            }
+            catch
+            {
+                return null;
+            }
         }
 
     }
