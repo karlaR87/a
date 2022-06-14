@@ -28,12 +28,22 @@ namespace proyectoLogin1
 
             if (lector.Read() == true)
             {
-                Validacion us = new Validacion();
-                us.usuario = lector[1].ToString();
-                us.clave = lector[2].ToString();
-                us.nivel = int.Parse(lector[3].ToString());
-                conex.Close();
-                return us;
+                if (lector.Read() == true)
+                {
+                    Validacion us = new Validacion();
+                    us.usuario = lector[1].ToString();
+                }
+
+                if (lector.Read() == true)
+                {
+                    Validacion us = new Validacion();
+                    us.usuario = lector[1].ToString();
+                    us.clave = lector[2].ToString();
+                    us.nivel = int.Parse(lector[3].ToString());
+                    conex.Close();
+                    return us;
+                }
+                
             }
             else
             {
